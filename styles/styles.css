@@ -506,7 +506,7 @@ body {
   background: var(--pressed_state);
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08),
     0px 2px 2px rgba(0, 0, 0, 0.12);
-  border-radius: 4px;
+  border-color: var(--pressed_state);
 }
 
 /* Portfolio list */
@@ -533,14 +533,14 @@ body {
   min-height: 120px;
   min-width: 360px;
   padding: 32px 0 32px 16px;
-  border-left: 1px solid #E7E9FC;
-  border-bottom: 1px solid #E7E9FC;
-  border-right: 1px solid #E7E9FC;
+  border-left: 1px solid #e7e9fc;
+  border-bottom: 1px solid #e7e9fc;
+  border-right: 1px solid #e7e9fc;
 }
 .portfolio_list:is(:hover, :focus) .prtfolio_cont:is(:hover, :focus) {
-  border-left: 0.5px solid #F4F4FD;
-  border-bottom: 0.5px solid #F4F4FD;
-  border-right: 0.5px solid #F4F4FD;
+  border-left: 0.5px solid #f4f4fd;
+  border-bottom: 0.5px solid #f4f4fd;
+  border-right: 0.5px solid #f4f4fd;
 }
 .portfolio_img_title {
   margin-bottom: 8px;
